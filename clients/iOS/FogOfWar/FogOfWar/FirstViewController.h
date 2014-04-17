@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Mapbox/Mapbox.h>
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController <RMMapViewDelegate>
 
 @end
